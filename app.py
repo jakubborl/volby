@@ -85,3 +85,5 @@ if st.session_state.first_form_submitted:
 
         # Zobrazení grafu ve Streamlit
         st.plotly_chart(fig)
+
+st.write("via Jakub Borl")
