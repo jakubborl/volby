@@ -6,7 +6,7 @@ import plotly.express as px
 def strana(x):
     
     strany = []
-    with st.form(key='my_form'):  # Vytvoříme formulář
+    with st.form(key='my_form'): 
         for i in range(1, x+1):
             strana = st.text_input(f"Zadejte název {i}. strany:", key=f"strana_{i}")
             strany.append(strana)
