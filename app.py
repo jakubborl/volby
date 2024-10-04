@@ -101,3 +101,4 @@ if st.session_state.first_form_submitted:
         
         # Zobrazení grafu ve Streamlit
         st.plotly_chart(fig)
+st.markdown("[GitHub:](https://www.example.com)")
